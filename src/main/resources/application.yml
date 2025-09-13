@@ -1,0 +1,9 @@
+crpt:
+  base-url: ${CRPT_BASE_URL:http://localhost:8089}
+  timeout: 5s
+  rate-limit:
+    unit: SECONDS
+    limit: 5
+spring:
+  main:
+    banner-mode: "off"

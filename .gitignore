@@ -1,0 +1,60 @@
+# === Java / Gradle ===
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# === Gradle ===
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IntelliJ IDEA / JetBrains ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === VS Code ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Temp ===
+logs/
+*.log
+*.tmp
+*.swp
+
+# === Docker ===
+/docker-data/
+/.docker/
+*.pid
+
+# === Spring Boot ===
+/bin/
+/target/
+/tmp/
+
+# === Coverage / Reports ===
+/coverage/
+/jacoco-report/
+/test-results/
+/reports/
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
+
+# === GitHub Actions cache ===
+/.github/.cache/
