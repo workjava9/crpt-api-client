@@ -1,4 +1,3 @@
-
 package dev.lab.crpt;
 
 import dev.lab.crpt.core.CrptClient;
