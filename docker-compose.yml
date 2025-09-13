@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: crpt-api-client:local
+    ports:
+      - "8080:8080"
+    environment:
+    # пример, если нужны проперти
+    # CRPT_BASE_URL: http://host.docker.internal:8089
+    restart: unless-stopped
